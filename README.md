@@ -1,6 +1,9 @@
 ## Compare-Slider
 ### Using annual cloudless Sentinel-2 Web Map Services (WMS) in a side-by-side interactive comparison window.
 
+<img width="906" height="533" alt="image" src="https://github.com/user-attachments/assets/f41cb9f5-ee09-4131-940c-9a43566bed94" />
+
+
 This boilerplate `compare-slider` webpage is built with [MapLibre GL JS](https://maplibregljs.org), which is the fork of Mapbox GL JS. Included are the following packages:
 
 - [`maplibre-gl-js`](https://github.com/maplibre/maplibre-gl-js)
