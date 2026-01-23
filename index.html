@@ -164,8 +164,8 @@
         "Sentinel-2 2024": "2024"
     };
     Object.keys(PERIODS).forEach((e, i) => {
-        $("#selectLeft").append(new Option(e, PERIODS[e], i===0, i===0));
-        $("#selectRight").append(new Option(e, PERIODS[e], i===1, i===1));
+        $("#selectLeft").append(new Option(e, PERIODS[e], PERIODS[e]==="2019", PERIODS[e]==="2019"));
+        $("#selectRight").append(new Option(e, PERIODS[e], PERIODS[e]==="2024", PERIODS[e]==="2024"));
 
     });
     const mosaicLeft = $("#selectLeft option:selected").val();
