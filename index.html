@@ -161,11 +161,12 @@
         "Sentinel-2 2021": "2021",
         "Sentinel-2 2022": "2022",
         "Sentinel-2 2023": "2023",
-        "Sentinel-2 2024": "2024"
+        "Sentinel-2 2024": "2024",
+        "Sentinel-2 2025": "2025"
     };
     Object.keys(PERIODS).forEach((e, i) => {
         $("#selectLeft").append(new Option(e, PERIODS[e], PERIODS[e]==="2019", PERIODS[e]==="2019"));
-        $("#selectRight").append(new Option(e, PERIODS[e], PERIODS[e]==="2024", PERIODS[e]==="2024"));
+        $("#selectRight").append(new Option(e, PERIODS[e], PERIODS[e]==="2025", PERIODS[e]==="2025"));
 
     });
     const mosaicLeft = $("#selectLeft option:selected").val();
